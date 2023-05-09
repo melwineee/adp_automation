@@ -47,7 +47,11 @@ public class TestBase {
 		if(browserName.equals("chrome")){
 			
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--remote-allow-origins=*");
+			 driver=new ChromeDriver(options);
+			
 			
 		
 		}

@@ -3,7 +3,7 @@
 <suite name="Automation Test Suite">
 <test name="Test Cases">
 		<classes>
-			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+			<class name="com.crm.qa.testcases.WebTest"></class>
 
 		</classes>
 	</test>

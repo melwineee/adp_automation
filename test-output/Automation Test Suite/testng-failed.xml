@@ -3,13 +3,13 @@
 <suite name="Failed suite [Automation Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.LoginPageTest">
+      <class name="com.crm.qa.testcases.WebTest">
         <methods>
-          <include name="setUp"/>
-          <include name="qe2searchTestValidation"/>
           <include name="tearDown"/>
+          <include name="homePageTitleTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      </class> <!-- com.crm.qa.testcases.WebTest -->
     </classes>
   </test> <!-- Test Cases(failed) -->
 </suite> <!-- Failed suite [Automation Test Suite] -->
